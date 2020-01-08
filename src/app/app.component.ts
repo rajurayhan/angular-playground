@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-playground';
+  title = 'Anguler Playground';
+  newVar  = 'This is a new Var from Ctrl';
+  public name = 'Raju Rayhan from AppComponent Parent';
+  public message = '';
 }
