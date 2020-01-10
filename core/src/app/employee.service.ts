@@ -12,8 +12,8 @@ import { catchError, map } from 'rxjs/operators/';
 export class EmployeeService {
 
   // private _url: string = "/assets/data/employees.json";
-  private _url: string = "http://dummy.restapiexample.com/api/v1/employeeees";
-  // private _url: string = "http://dummy.restapiexample.com/api/v1/employees";
+  // private _url: string = "http://dummy.restapiexample.com/api/v1/employeeees";
+  private _url: string = "http://banglabox.net/api/categories";
 
   constructor(private http: HttpClient) { }
 

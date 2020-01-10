@@ -8,7 +8,7 @@ import { EmployeeService } from '../employee.service';
   <div>
     <h2>Employee List</h2>
     <ul *ngFor="let employee of employees">
-      <li>{{ employee.id }}. {{ employee.employee_name }} - {{ employee.employee_age }} - {{ employee.employee_salary }} </li>
+      <li>{{ employee.id }}. {{ employee.name }} - {{ employee.employee_age }} - {{ employee.slug }} </li>
     </ul>
   </div>
   `,
